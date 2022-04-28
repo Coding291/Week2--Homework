@@ -1,0 +1,80 @@
+body {
+    background-color: #d9dcd6;
+    background-image: url("https://cdn.wallpapersafari.com/67/69/we3oE0.jpg");
+}
+
+.body img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(139, 0, 0);
+    color: black;
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+ nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+ nav ul {
+    list-style-type: none;
+}
+
+ nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    color: White;
+    font-style: bold;
+    font-size: 25px;
+    border: 8px solid black;
+    display: block;
+    margin: 225px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+
+    
+}
+
+.float-middle {
+    float: middle;
+    margin: 0 675px 0 675px;
+    margin-top: 40px;
+}
+
+footer {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 30px;
+}
