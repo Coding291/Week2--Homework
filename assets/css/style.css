@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 body {
     background-color: #d9dcd6;
-    background-image: url("https://cdn.wallpapersafari.com/67/69/we3oE0.jpg");
+    
 }
 
 .body img {
@@ -16,10 +23,23 @@ header {
     text-align: center;
 }
 
+.section h2 {
+    text-align: center;
+    font-size: 55px;
+    font-family:cursive;
+}
+
+.section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
 header h1 {
     display: inline-block;
     font-size: 48px;
-    font-style: oblique;
+    font-style:inherit;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -44,13 +64,20 @@ header h1 .seo {
     display: inline-block;
     margin-left: 25px;
 }
+
+.jumborton {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://i.pinimg.com/736x/8e/6c/06/8e6c064f57f94838263d7ba9ad80f353.jpg");
+}
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    color: White;
+    color: navy;
     font-style: bold;
     font-size: 25px;
     border: 8px solid black;
@@ -70,11 +97,21 @@ p {
 }
 
 footer {
-    padding: 25px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: brown;
+
+}
+
+.footer p {
+    color: black;
+    border: none;
+    margin-top: 50px;
 }
 
 .footer h2 {
     font-size: 30px;
+    margin-top: 50px;
 }
+
