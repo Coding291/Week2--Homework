@@ -21,6 +21,7 @@ header {
     background-color: rgb(139, 0, 0);
     color: black;
     text-align: center;
+    
 }
 
 .section h2 {
@@ -36,16 +37,18 @@ header {
   
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-    font-style:inherit;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.section a:hover {
+    color: brown;
+    border: none;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
+header h1 {
+    display: inline-block;
+    font-size: 53px;
+    font-style:inherit;
+    font-family:cursive;
 }
+
 
  nav {
     padding-top: 15px;
@@ -55,14 +58,21 @@ header h1 .seo {
     font-size: 30px;
     text-align: center;
     justify-content: space-between;
+    
 }
  nav ul {
     list-style-type: none;
+
+}
+ul {
+    display: flex;
+    justify-content: space-between;
 }
 
- nav ul li {
+ nav ul li a:hover{
     display: inline-block;
     margin-left: 25px;
+   
 }
 
 .jumborton {
@@ -70,6 +80,10 @@ header h1 .seo {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("https://i.pinimg.com/736x/8e/6c/06/8e6c064f57f94838263d7ba9ad80f353.jpg");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 a {
     color: #ffffff;
@@ -84,11 +98,14 @@ p {
     display: block;
     margin: 225px;
     margin-top: 10px;
-    position: relative;
+    /* position: relative; */
     text-align: center;
 
     
 }
+
+
+
 
 .float-middle {
     float: middle;
@@ -101,6 +118,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: brown;
+    
 
 }
 
@@ -113,5 +131,33 @@ footer {
 .footer h2 {
     font-size: 30px;
     margin-top: 50px;
+}
+
+@media screen and (max-width:1000px) {
+    a {
+        font-size: 24px;
+
+    }
+    
+}
+@media screen and (max-width:920px) {
+    ul {
+
+        flex-direction: column;
+
+    }
+    li {
+        color: red;
+    }
+    p {
+        width: 700px;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width:701px) {
+    p {
+        width: 500px;
+        margin: 20px auto;
+    }
 }
 
