@@ -107,9 +107,8 @@ p {
 
 
 
-.float-middle {
+.float {
     float: middle;
-    margin: 0 675px 0 675px;
     margin-top: 40px;
 }
 
